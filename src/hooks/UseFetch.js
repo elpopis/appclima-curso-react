@@ -28,6 +28,7 @@ export const UseFetch = (url = '') => {
     }
   }
 
+  
   useEffect(()=>{
      getFetch()
     },[url]);
